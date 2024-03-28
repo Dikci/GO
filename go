@@ -1,3 +1,4 @@
+echo -e '\n\e[42mInstall Go\e[0m\n' && sleep 1
 cd $HOME
 VERSION=1.21.6
 wget -O go.tar.gz https://go.dev/dl/go$VERSION.linux-amd64.tar.gz
